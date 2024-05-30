@@ -5,3 +5,4 @@ it('renders simple webpage with greeting', () => {
   render(<App />);
   expect(screen.getByText(/Hi there/i)).toBeInTheDocument();
 });
+
